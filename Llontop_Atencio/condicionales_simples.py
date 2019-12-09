@@ -155,3 +155,20 @@ total=float(os.sys.argv[2])
 #mostrar "Felicidades ganaste una prenda de vestir"
 if( total > 300 ):
     print(nombre_cliente, "Felicidades ganaste una prenda de vestir")
+
+
+#Ejercicio10
+#programa consultora
+import os
+#declaracion de variables
+nombre_consultora=""
+total_de_puntos=0
+#Input via os
+nombre_consultora=os.sys.argv[1]
+total_de_puntos=int(os.sys.argv[2])
+
+#procesing
+#si la consultora suera los 500,
+#mostrar "Felicidades ganaste un pavo!"
+if( total_de_puntos > 500 ):
+    print(nombre_consultora, "Felicidades ganaste un pavo!")
