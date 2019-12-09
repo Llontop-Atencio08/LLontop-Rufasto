@@ -15,3 +15,6 @@ python Llontop_Atencio/condicionales_simples.py "genesis" 820
 python Llontop_Atencio/condicionales_simples.py "ena" 620
 python Llontop_Atencio/condicionales_simples.py "yenifer" 610
 
+python Llontop_Atencio/condicionales_simples.py "paul" 2780
+python Llontop_Atencio/condicionales_simples.py "sebastian" 2450
+python Llontop_Atencio/condicionales_simples.py "pepe" 2560

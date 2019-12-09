@@ -67,5 +67,23 @@ total_de_la_compra=float(os.sys.argv[2])
 #procesing
 #si la compra supera los 600 soles
 #mostrar "consultora compulsiva"
-if(total_de_la_compra):
+if(total_de_la_compra>600):
     print(nombre_consultora,"compradora compulsiva")
+
+
+#Ejercicio5
+#programa de empleado compulsivo
+import os
+#declaracion
+nombre_empleado=""
+monto_total=0.0
+
+#Input via os
+nombre_empleado=os.sys.argv[1]
+monto_total=float(os.sys.argv[2])
+
+#procesing
+#si el empleado supera los 2000
+#mostrar "empleado compulsivo"
+if(monto_total>2000):
+    print(nombre_empleado,"empleado compulsivo")
