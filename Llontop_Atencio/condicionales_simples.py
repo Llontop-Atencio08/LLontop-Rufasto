@@ -11,7 +11,7 @@ promedio=float(os.sys.argv[2])
 #procesing
 #si el alumno supera a 11
 #mostrar "felicidades aprobaste"
-if(promedio>11):
+if( promedio > 11 ):
      print(nombre,"felicidades aprobaste")
 
 
@@ -29,7 +29,7 @@ nro_botellas=int(os.sys.argv[2])
 #procesing
 #si el nro de botellas supera a 50
 #mostrar "adulto alcoholico"
-if(nro_botellas>50):
+if( nro_botellas > 50 ):
     print(nombre_adulto,"adulto alcoholico")
 
 
@@ -48,8 +48,8 @@ edad_adolescente=int(os.sys.argv[3])
 
 #procesing
 #si la edad supera a los 18 anios
-#mostrar "adolescente mayor de edad"
-if(edad_adolescente>18):
+#mostrar "bienvenido"
+if( edad_adolescente > 18 ):
     print(nombre_adolescente,"bienvenido")
 
 
@@ -67,7 +67,7 @@ total_de_la_compra=float(os.sys.argv[2])
 #procesing
 #si la compra supera los 600 soles
 #mostrar "consultora compulsiva"
-if(total_de_la_compra>600):
+if( total_de_la_compra > 600 ):
     print(nombre_consultora,"compradora compulsiva")
 
 
@@ -85,7 +85,7 @@ monto_total=float(os.sys.argv[2])
 #procesing
 #si el empleado supera los 2000
 #mostrar "empleado compulsivo"
-if(monto_total>2000):
+if( monto_total > 2000 ):
     print(nombre_empleado,"empleado compulsivo")
 
 #Ejercicio6
@@ -100,7 +100,24 @@ nombre_colegio=os.sys.argv[1]
 cantidad_total=int(os.sys.argv[2])
 
 #procesing
-#si la cantidad de alumnos super los 300
-#mostrar "exceso de alumnos"
-if(cantidad_total>300):
+#si la cantidad de alumnos supera los 300
+#mostrar "lo sentimos, exceso de alumnos"
+if( cantidad_total > 300 ):
     print(nombre_colegio,"lo sentimos, exceso de alumnos")
+
+#Ejercicio7
+#programa de ninioscon hemoglobina baja
+import os
+#declaracion
+nombre_ninio=""
+resultado_hemoglobina=0.0
+
+#Input via os
+nombre_ninio=os.sys.argv[1]
+resultado_hemoglobina=float(os.sys.argv[2])
+
+#procesing
+#si el resultado supera el 12.5
+#mostrar "felicidades, estas bien"
+if( nombre_ninio > 12.5 ):
+    print(nombre_ninio,"felicidades, estas bien")

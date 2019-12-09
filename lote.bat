@@ -22,3 +22,7 @@ python Llontop_Atencio/condicionales_simples.py "pepe" 2560
 python Llontop_Atencio/condicionales_simples.py "la misericordia" 340
 python Llontop_Atencio/condicionales_simples.py "la misericordia" 320
 python Llontop_Atencio/condicionales_simples.py "la misericordia" 350
+
+python Llontop_Atencio/condicionales_simples.py "valentina" 14.5
+python Llontop_Atencio/condicionales_simples.py "camila" 14.6
+python Llontop_Atencio/condicionales_simples.py "valery" 15.2
