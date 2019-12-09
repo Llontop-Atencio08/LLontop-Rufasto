@@ -237,3 +237,23 @@ if( total > 300 ):
 else :
     print(nombre_cliente,", Sigue intentando")
     #fin_if
+
+#Ejercicio10
+#programa consultora
+import os
+#declaracion de variables
+nombre_consultora=""
+total_de_puntos=0
+#Input via os
+nombre_consultora=os.sys.argv[1]
+total_de_puntos=int(os.sys.argv[2])
+
+#procesing
+#si la consultora sera los 500,
+#mostrar "Felicidades ganaste un pavo!"
+#caso contrario "Sigue intentando"
+if( total_de_puntos > 500 ):
+    print(nombre_consultora, "Felicidades ganaste un pavo!")
+else :
+    print(nombre_consultora,", Sigue intentando")
+#fin_if
