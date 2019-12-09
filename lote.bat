@@ -94,3 +94,7 @@ python Llontop_Atencio/condicionales_simples.py 14 16 19
 python Llontop_Atencio/condicionales_simples.py "juan" 14 13 19 16
 python Llontop_Atencio/condicionales_simples.py "nacho" 14 10 11 16
 python Llontop_Atencio/condicionales_simples.py "julia" 17 16 12 11
+
+python Llontop_Atencio/condicionales_simples.py "blas" 5 10 25
+python Llontop_Atencio/condicionales_simples.py "junior" 0 15 20
+python Llontop_Atencio/condicionales_simples.py "jesus" 11 17 24

@@ -42,3 +42,26 @@ if ( promedio >=75 and promedio <=80 ):
 #si el promedio 70 y 74 (muy bien)
 if ( promedio >= 70 and promedio <=74):
     prin("muy bien")
+
+
+#Ejercicio3
+#programa de adulto alcoholico
+import os
+#declaracion
+nombre_adulto,botella1,botella2,botella3="",0,0,0
+
+#Input via os
+nombre_adulto=os.sys.argv[1]
+botella1=int(os.sys.argv[2])
+botella2=int(os.sys.argv[3])
+botella3=int(os.sys.argv[4])
+
+#procesing
+total=int(round(botella1+botella2+botella3))
+#Condicion multiple
+#si la suma total => 40 y 50 (usted tiene problemas con el alcohol)
+if( total >= 40 and total <=50 ):
+    print("usted tiene problemas con el alcohol")
+#si la suma total =>30 y 39 (no tiene problemas con el alcohol)
+if ( promedio >=30 and total <=39):
+    print("no tiene problemas con el alcohol")
