@@ -90,3 +90,7 @@ python Llontop_Atencio/condicionales_simples.py "marlene" 150
 python Llontop_Atencio/condicionales_simples.py 15 13 17
 python Llontop_Atencio/condicionales_simples.py 13 16 10
 python Llontop_Atencio/condicionales_simples.py 14 16 19
+
+python Llontop_Atencio/condicionales_simples.py "juan" 14 13 19 16
+python Llontop_Atencio/condicionales_simples.py "nacho" 14 10 11 16
+python Llontop_Atencio/condicionales_simples.py "julia" 17 16 12 11
