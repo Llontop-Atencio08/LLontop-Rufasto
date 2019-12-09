@@ -87,3 +87,20 @@ monto_total=float(os.sys.argv[2])
 #mostrar "empleado compulsivo"
 if(monto_total>2000):
     print(nombre_empleado,"empleado compulsivo")
+
+#Ejercicio6
+#programa de exceso de alumnos
+import os
+#declaracion
+nombre_colegio=""
+cantidad_total=0
+
+#Input via os
+nombre_colegio=os.sys.argv[1]
+cantidad_total=int(os.sys.argv[2])
+
+#procesing
+#si la cantidad de alumnos super los 300
+#mostrar "exceso de alumnos"
+if(cantidad_total>300):
+    print(nombre_colegio,"lo sentimos, exceso de alumnos")

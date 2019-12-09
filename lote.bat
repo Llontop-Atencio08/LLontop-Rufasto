@@ -18,3 +18,7 @@ python Llontop_Atencio/condicionales_simples.py "yenifer" 610
 python Llontop_Atencio/condicionales_simples.py "paul" 2780
 python Llontop_Atencio/condicionales_simples.py "sebastian" 2450
 python Llontop_Atencio/condicionales_simples.py "pepe" 2560
+
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 340
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 320
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 350
