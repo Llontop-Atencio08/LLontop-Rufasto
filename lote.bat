@@ -46,3 +46,7 @@ python Llontop_Atencio/condicionales_simples.py "flor" 16
 python Llontop_Atencio/condicionales_simples.py "maariela" 45
 python Llontop_Atencio/condicionales_simples.py "efrain" 35
 python Llontop_Atencio/condicionales_simples.py "carlos" 48
+
+python Llontop_Atencio/condicionales_simples.py "roberto" 17
+python Llontop_Atencio/condicionales_simples.py "juan" 15
+python Llontop_Atencio/condicionales_simples.py "nila" 16
