@@ -30,3 +30,7 @@ python Llontop_Atencio/condicionales_simples.py "valery" 15.2
 python Llontop_Atencio/condicionales_simples.py "alejandra" 152
 python Llontop_Atencio/condicionales_simples.py "melania" 151
 python Llontop_Atencio/condicionales_simples.py "pedro" 153
+
+python Llontop_Atencio/condicionales_simples.py "rocio" 350
+python Llontop_Atencio/condicionales_simples.py "nicol" 310
+python Llontop_Atencio/condicionales_simples.py "maria" 380

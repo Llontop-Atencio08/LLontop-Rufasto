@@ -124,17 +124,34 @@ if( nombre_ninio > 12.5 ):
 
 
 #Ejercicio8
-# Programa Cineplanet
+#programa Cineplanet
 import os
-# Declaracion de variables
+#declaracion de variables
 nombre=""
 nro_tickets=0
-# INPUT via OS
+#INPUT via os
 nombre=os.sys.argv[1]
 nro_tickets=int(os.sys.argv[2])
 
-# PROCESSING
+#procesing
 #Si el nro de tickets supera 150,
 # mostrar "Ganaste un combo"
 if ( nro_tickets > 150 ):
     print(nombre, " Ganaste un combo")
+
+
+#Ejercicio9
+#programa cliente
+import os
+#declaracion de variables
+nombre_cliente=""
+total=0.0
+#Input via os
+nombre_cliente=os.sys.argv[1]
+total=float(os.sys.argv[2])
+
+#procesing
+#si el cliente supera los 300,
+#mostrar "Felicidades ganaste una prenda de vestir"
+if( total > 300 ):
+    print(nombre_cliente, "Felicidades ganaste una prenda de vestir")
