@@ -10,3 +10,8 @@ python Llontop_Atencio/condicionales_simples.py "miguel" 51
 python Llontop_Atencio/condicionales_simples.py "jose" "night" 20
 python Llontop_Atencio/condicionales_simples.py "guzman" "night" 19
 python Llontop_Atencio/condicionales_simples.py "fabiola" "night" 21
+
+python Llontop_Atencio/condicionales_simples.py "genesis" 820
+python Llontop_Atencio/condicionales_simples.py "ena" 620
+python Llontop_Atencio/condicionales_simples.py "yenifer" 610
+

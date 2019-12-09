@@ -48,6 +48,24 @@ edad_adolescente=int(os.sys.argv[3])
 
 #procesing
 #si la edad supera a los 18 anios
-#mostrar "adulto mayor de edad"
+#mostrar "adolescente mayor de edad"
 if(edad_adolescente>18):
     print(nombre_adolescente,"bienvenido")
+
+
+#Ejercicio4
+#programa de consultora compulsiva
+import os
+#declaracion
+nombre_consultora=""
+total_de_la_compra=0.0
+
+#Input via os
+nombre_consultora=os.sys.argv[1]
+total_de_la_compra=float(os.sys.argv[2])
+
+#procesing
+#si la compra supera los 600 soles
+#mostrar "consultora compulsiva"
+if(total_de_la_compra):
+    print(nombre_consultora,"compradora compulsiva")
