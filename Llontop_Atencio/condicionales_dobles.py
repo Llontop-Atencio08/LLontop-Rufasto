@@ -195,3 +195,24 @@ if( nombre_ninio > 12.5 ):
 else :
     print(nombre_ninio,", lo sentimos, tiene que alimentarse mejor")
 #fin_if
+
+
+#Ejercicio8
+#programa Cineplanet
+import os
+#declaracion de variables
+nombre=""
+nro_tickets=0
+#INPUT via os
+nombre=os.sys.argv[1]
+nro_tickets=int(os.sys.argv[2])
+
+#procesing
+#Si el nro de tickets supera 150,
+# mostrar "Ganaste un combo"
+#caso contrario "Sigue intentando"
+if ( nro_tickets > 150 ):
+    print(nombre, " Ganaste un combo")
+else :
+    print(nombre_ninio,", Sigue intentando ")
+#fin_if

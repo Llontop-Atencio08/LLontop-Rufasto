@@ -74,3 +74,7 @@ python Llontop_Atencio/condicionales_simples.py "la misericordia" 57
 python Llontop_Atencio/condicionales_simples.py "damaris" 10.3
 python Llontop_Atencio/condicionales_simples.py "luis" 11.7
 python Llontop_Atencio/condicionales_simples.py "paty" 10.9
+
+python Llontop_Atencio/condicionales_simples.py "valeria" 155
+python Llontop_Atencio/condicionales_simples.py "jorge" 179
+python Llontop_Atencio/condicionales_simples.py "leo" 160
