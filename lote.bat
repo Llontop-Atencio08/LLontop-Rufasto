@@ -3,3 +3,6 @@ python Llontop_Atencio/condicionales_simples.py "alondra" 15
 python Llontop_Atencio/condicionales_simples.py "santiago" 15
 
 
+python Llontop_Atencio/condicionales_simples.py "pedro" 52
+python Llontop_Atencio/condicionales_simples.py "juan" 60
+python Llontop_Atencio/condicionales_simples.py "miguel" 51
