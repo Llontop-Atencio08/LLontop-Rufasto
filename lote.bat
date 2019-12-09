@@ -50,3 +50,7 @@ python Llontop_Atencio/condicionales_simples.py "carlos" 48
 python Llontop_Atencio/condicionales_simples.py "roberto" 17
 python Llontop_Atencio/condicionales_simples.py "juan" 15
 python Llontop_Atencio/condicionales_simples.py "nila" 16
+
+python Llontop_Atencio/condicionales_simples.py "roberto" 17
+python Llontop_Atencio/condicionales_simples.py "juan" 15
+python Llontop_Atencio/condicionales_simples.py "nila" 16
