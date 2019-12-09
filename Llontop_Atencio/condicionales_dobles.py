@@ -216,3 +216,24 @@ if ( nro_tickets > 150 ):
 else :
     print(nombre_ninio,", Sigue intentando ")
 #fin_if
+
+
+#Ejercicio9
+#programa cliente
+import os
+#declaracion de variables
+nombre_cliente=""
+total=0.0
+#Input via os
+nombre_cliente=os.sys.argv[1]
+total=float(os.sys.argv[2])
+
+#procesing
+#si el cliente supera los 300,
+#mostrar "Felicidades ganaste una prenda de vestir"
+#caso contrario "Sigue intentado"
+if( total > 300 ):
+    print(nombre_cliente, "Felicidades ganaste una prenda de vestir")
+else :
+    print(nombre_cliente,", Sigue intentando")
+    #fin_if

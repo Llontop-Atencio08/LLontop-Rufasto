@@ -78,3 +78,7 @@ python Llontop_Atencio/condicionales_simples.py "paty" 10.9
 python Llontop_Atencio/condicionales_simples.py "valeria" 155
 python Llontop_Atencio/condicionales_simples.py "jorge" 179
 python Llontop_Atencio/condicionales_simples.py "leo" 160
+
+python Llontop_Atencio/condicionales_simples.py "jazmin" 250
+python Llontop_Atencio/condicionales_simples.py "rosa" 290
+python Llontop_Atencio/condicionales_simples.py "claudia" 180
