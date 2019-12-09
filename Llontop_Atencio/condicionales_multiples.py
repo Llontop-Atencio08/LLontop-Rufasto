@@ -63,5 +63,29 @@ total=int(round(botella1+botella2+botella3))
 if( total >= 40 and total <=50 ):
     print("usted tiene problemas con el alcohol")
 #si la suma total =>30 y 39 (no tiene problemas con el alcohol)
-if ( promedio >=30 and total <=39):
+if ( total >=30 and total <=39):
     print("no tiene problemas con el alcohol")
+
+
+#Ejercicio4
+#programa de consultora compulsiva
+import os
+#declaracion
+nombre_consultora,mes1,mes2,mes3="",0.0,0.0,0.0
+
+#Input via os
+nombre_consultora=os.sys.argv[1]
+mes1=float(os.sys.argv[2])
+mes2=float(os.sys.argv[3])
+mes3=float(os.sys.argv[4])
+
+#procesing
+total=float(round(mes1+mes2+mes3))
+#Condicion multiple
+#si la suma total =>1000 y 1500 (usted es una consultora compulsiva)
+if( total >= 1000 and total <=1500):
+    print("usted es una compradora compulsiva")
+#si la suma total => 500 y 999 (usted no es compradora impulsiva)
+if ( total >= 500 and total <=999):
+    print("usted no es compradora compulsiva")
+
