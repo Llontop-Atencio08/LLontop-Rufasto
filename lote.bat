@@ -86,3 +86,7 @@ python Llontop_Atencio/condicionales_simples.py "claudia" 180
 python Llontop_Atencio/condicionales_simples.py "ana" 340
 python Llontop_Atencio/condicionales_simples.py "anais" 120
 python Llontop_Atencio/condicionales_simples.py "marlene" 150
+
+python Llontop_Atencio/condicionales_simples.py 15 13 17
+python Llontop_Atencio/condicionales_simples.py 13 16 10
+python Llontop_Atencio/condicionales_simples.py 14 16 19
