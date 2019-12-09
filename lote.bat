@@ -62,3 +62,7 @@ python Llontop_Atencio/condicionales_simples.py "melani" 500
 python Llontop_Atencio/condicionales_simples.py "renato" 1700
 python Llontop_Atencio/condicionales_simples.py "blanca" 1200
 python Llontop_Atencio/condicionales_simples.py "santiago" 1650
+
+python Llontop_Atencio/condicionales_simples.py "renato" 1700
+python Llontop_Atencio/condicionales_simples.py "blanca" 1200
+python Llontop_Atencio/condicionales_simples.py "santiago" 1650
