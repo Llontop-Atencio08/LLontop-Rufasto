@@ -108,3 +108,25 @@ if( total_de_la_compra > 600 ):
 else :
     print(nombre_consultora,", no eres compradora compulsiva")
 #fin_if
+
+
+#Ejercicio5
+#programa de empleado compulsivo
+import os
+#declaracion
+nombre_empleado=""
+monto_total=0.0
+
+#Input via os
+nombre_empleado=os.sys.argv[1]
+monto_total=float(os.sys.argv[2])
+
+#procesing
+#si el empleado supera los 2000
+#mostrar "empleado compulsivo"
+#caso contrario "usted no es un empleado compulsivo"
+if( monto_total > 2000 ):
+    print(nombre_empleado,", empleado compulsivo")
+else :
+    print(nombre_empleado,", usted no es un empleado compulsivo")
+#fin_if

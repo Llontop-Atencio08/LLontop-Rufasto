@@ -58,3 +58,7 @@ python Llontop_Atencio/condicionales_simples.py "nila" 16
 python Llontop_Atencio/condicionales_simples.py "regina" 540
 python Llontop_Atencio/condicionales_simples.py "eugenio" 550
 python Llontop_Atencio/condicionales_simples.py "melani" 500
+
+python Llontop_Atencio/condicionales_simples.py "renato" 1700
+python Llontop_Atencio/condicionales_simples.py "blanca" 1200
+python Llontop_Atencio/condicionales_simples.py "santiago" 1650
