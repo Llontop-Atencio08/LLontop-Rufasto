@@ -168,7 +168,7 @@ nombre_consultora=os.sys.argv[1]
 total_de_puntos=int(os.sys.argv[2])
 
 #procesing
-#si la consultora suera los 500,
+#si la consultora sera los 500,
 #mostrar "Felicidades ganaste un pavo!"
 if( total_de_puntos > 500 ):
     print(nombre_consultora, "Felicidades ganaste un pavo!")
