@@ -54,3 +54,7 @@ python Llontop_Atencio/condicionales_simples.py "nila" 16
 python Llontop_Atencio/condicionales_simples.py "roberto" 17
 python Llontop_Atencio/condicionales_simples.py "juan" 15
 python Llontop_Atencio/condicionales_simples.py "nila" 16
+
+python Llontop_Atencio/condicionales_simples.py "regina" 540
+python Llontop_Atencio/condicionales_simples.py "eugenio" 550
+python Llontop_Atencio/condicionales_simples.py "melani" 500

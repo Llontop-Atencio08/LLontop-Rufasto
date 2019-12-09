@@ -85,4 +85,26 @@ if( edad_adolescente > 18 ):
     print(nombre_adolescente,", bienvenido")
 else :
     print(nombre_adolescente,", lo sentimos")
+
+
+
+#Ejercicio4
+#programa de consultora compulsiva
+import os
+#declaracion
+nombre_consultora=""
+total_de_la_compra=0.0
+
+#Input via os
+nombre_consultora=os.sys.argv[1]
+total_de_la_compra=float(os.sys.argv[2])
+
+#procesing
+#si la compra supera los 600 soles
+#mostrar "consultora compulsiva"
+#caso contrario "no eres consultora compulsiva"
+if( total_de_la_compra > 600 ):
+    print(nombre_consultora,", compradora compulsiva")
+else :
+    print(nombre_consultora,", no eres compradora compulsiva")
 #fin_if
