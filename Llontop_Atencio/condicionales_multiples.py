@@ -89,3 +89,25 @@ if( total >= 1000 and total <=1500):
 if ( total >= 500 and total <=999):
     print("usted no es compradora compulsiva")
 
+
+#Ejercicio5
+#programa de empleado compulsivo
+import os
+#declaracion
+nombre_empleado,mes1,mes2,mes3="",0.0,0.0,0.0
+
+#Input via os
+nombre_empleado=os.sys.argv[1]
+mesl=float(os.sys.argv[2])
+mes2=float(os.sys.argv[3])
+mes3=float(os.sys.argv[4])
+
+#procesing
+total=float(round(mesl+mes2+mes3))
+#Condicion multiple
+#si la suma total =>7000 y 7500 (usted es un empleado compulsivo)
+if(total >= 7000 and total <=7500 ):
+    print("usted es un empleado compulsivo")
+#si la suma total =>5000 y 6999 (usted no es empleado compulsivo)
+if ( total >= 5000 and total <=6999 ):)
+    print(" usted no es un empleado compulsivo")
