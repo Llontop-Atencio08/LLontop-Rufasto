@@ -173,3 +173,25 @@ if( cantidad_total > 300 ):
 else :
     print(nombre_colegio,", felicidades alcanzo vacante")
 #fin_if
+
+
+#Ejercicio7
+#programa de ninios con hemoglobina estable
+import os
+#declaracion
+nombre_ninio=""
+resultado_hemoglobina=0.0
+
+#Input via os
+nombre_ninio=os.sys.argv[1]
+resultado_hemoglobina=float(os.sys.argv[2])
+
+#procesing
+#si el resultado supera el 12.5
+#mostrar "felicidades, estas bien"
+#caso contrario "lo sentimos, tiene que alimentarse mejor"
+if( nombre_ninio > 12.5 ):
+    print(nombre_ninio,", felicidades, estas bien")
+else :
+    print(nombre_ninio,", lo sentimos, tiene que alimentarse mejor")
+#fin_if
