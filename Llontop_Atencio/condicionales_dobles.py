@@ -151,3 +151,25 @@ if( monto_total > 2000 ):
 else :
     print(nombre_empleado,", usted no es un empleado compulsivo")
 #fin_if
+
+
+#Ejercicio6
+#programa de exceso de alumnos
+import os
+#declaracion
+nombre_colegio=""
+cantidad_total=0
+
+#Input via os
+nombre_colegio=os.sys.argv[1]
+cantidad_total=int(os.sys.argv[2])
+
+#procesing
+#si la cantidad de alumnos supera los 300
+#mostrar "lo sentimos, exceso de alumnos"
+#caso contrario "felicidades alcanzo vacante"
+if( cantidad_total > 300 ):
+    print(nombre_colegio,", lo sentimos, exceso de alumnos")
+else :
+    print(nombre_colegio,", felicidades alcanzo vacante")
+#fin_if

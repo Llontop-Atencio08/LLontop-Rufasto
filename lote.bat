@@ -66,3 +66,7 @@ python Llontop_Atencio/condicionales_simples.py "santiago" 1650
 python Llontop_Atencio/condicionales_simples.py "renato" 1700
 python Llontop_Atencio/condicionales_simples.py "blanca" 1200
 python Llontop_Atencio/condicionales_simples.py "santiago" 1650
+
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 250
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 100
+python Llontop_Atencio/condicionales_simples.py "la misericordia" 57
