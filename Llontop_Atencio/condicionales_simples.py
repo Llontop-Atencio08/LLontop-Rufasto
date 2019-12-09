@@ -106,7 +106,7 @@ if( cantidad_total > 300 ):
     print(nombre_colegio,"lo sentimos, exceso de alumnos")
 
 #Ejercicio7
-#programa de ninioscon hemoglobina baja
+#programa de ninios con hemoglobina estable
 import os
 #declaracion
 nombre_ninio=""
@@ -121,3 +121,20 @@ resultado_hemoglobina=float(os.sys.argv[2])
 #mostrar "felicidades, estas bien"
 if( nombre_ninio > 12.5 ):
     print(nombre_ninio,"felicidades, estas bien")
+
+
+#Ejercicio8
+# Programa Cineplanet
+import os
+# Declaracion de variables
+nombre=""
+nro_tickets=0
+# INPUT via OS
+nombre=os.sys.argv[1]
+nro_tickets=int(os.sys.argv[2])
+
+# PROCESSING
+#Si el nro de tickets supera 150,
+# mostrar "Ganaste un combo"
+if ( nro_tickets > 150 ):
+    print(nombre, " Ganaste un combo")
