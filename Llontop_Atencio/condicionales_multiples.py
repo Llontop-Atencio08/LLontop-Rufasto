@@ -117,7 +117,7 @@ if ( total >= 5000 and total <=6999 ):)
 #programa de exceso de alumnos
 import os
 #declaracion
-nombre_colegio,aula1,aula2,aula3="",0,0,0
+nombre_colegio,aula1,aula2,aula3,total="",0,0,0,0
 
 #Input via os
 nombre_colegio=os.sys.argv[1]
@@ -139,7 +139,7 @@ if( total >= 0 and total <=240 ):
 #programa consultora
 import os
 #declaracion de variables
-nombre_consultora,mes1,mes2,mes3,mes4="",0.0,0.0,0.0,0.0
+nombre_consultora,mes1,mes2,mes3,mes4,total="",0.0,0.0,0.0,0.0,0.0
 #Input via os
 nombre_consultora=os.sys.argv[1]
 mes1=float(os.sys.argv[2])
@@ -155,3 +155,27 @@ if( total >= 1000 and total <= 1500 ):
 #si la suma total => 500 y 999
 if( total >= 500 and total <= 999 ):
     print("Sigue intentando!")
+
+
+#Ejerccio8
+#programa en venta de leche
+import os
+#declaracion de variables
+ganadero,semana1,semana2,semana3,semana4,total="",0.0,0.0,0.0,0.0
+#Input via os
+ganadero=os.sys.argv[1]
+semana1=float(os.sys.argv[2])
+semana2=float(os.sys.argv[3])
+semana3=float(os.sys.argv[4])
+semana4=float(os.sys.argv[5])
+
+#procesing
+total=float(round(semana1+semana2+semana3+semana4))
+#Condicion multiple
+#si la suma total =>2000 y 2500 (Perfecto!)
+if(total >= 2000 and total <= 2500):
+    print("Perfecto!")
+#si la suma total => 1000 y 999 (Oh vaya :( !)
+if( (total >= 1000 and total <= 999))
+    print("Oh vaya :(!")
+
