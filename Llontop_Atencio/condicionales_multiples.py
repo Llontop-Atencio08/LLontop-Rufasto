@@ -157,7 +157,7 @@ if( total >= 500 and total <= 999 ):
     print("Sigue intentando!")
 
 
-#Ejerccio8
+#Ejercicio8
 #programa en venta de leche
 import os
 #declaracion de variables
@@ -176,6 +176,29 @@ total=float(round(semana1+semana2+semana3+semana4))
 if(total >= 2000 and total <= 2500):
     print("Perfecto!")
 #si la suma total => 1000 y 999 (Oh vaya :( !)
-if( (total >= 1000 and total <= 999))
+if (total >= 1000 and total <= 999)
     print("Oh vaya :(!")
+
+#Ejercicio9
+#programa para pasar el anio
+import os
+#declaracion de variables
+nombre_alumno,curso1,curso2,curso3,curso4,cruso5,promedio="",0,0,0,0,0,0
+#Input via os
+nombre_alumno=os.sys.argv[1]
+curso1=int(os.sys.argv[2])
+curso2=int(os.sys.argv[3])
+curso3=int(os.sys.argv[4])
+curso4=int(os.sys.argv[5])
+curso5=int(os.sys.argv[6])
+
+#procesing
+promedio=int(round(curso1+curso2+curso3+curso4+curso5)/5.0))
+#Condicion multiple
+#si el promedio =>20 y 15 (Felicidades!)
+if(promedio >= 20 and promedio <=15):
+    print("Felicidades!")
+#si el promedio => 11 y 14 (Aprobaste!)
+if(promedio >=11 y and promedio <=14):
+    print("Aprobaste!")
 

@@ -119,7 +119,7 @@ resultado_hemoglobina=float(os.sys.argv[2])
 #procesing
 #si el resultado supera el 12.5
 #mostrar "felicidades, estas bien"
-if( nombre_ninio > 12.5 ):
+if( resultado_hemoglobina > 12.5 ):
     print(nombre_ninio,"felicidades, estas bien")
 
 
