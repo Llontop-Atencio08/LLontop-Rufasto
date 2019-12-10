@@ -106,3 +106,8 @@ python Llontop_Atencio/condicionales_simples.py "eliot" 459 345.90 698.98
 python Llontop_Atencio/condicionales_simples.py "manuel" 3900.40 2509.70 2340
 python Llontop_Atencio/condicionales_simples.py "piero" 2500.7 2356.0 4563.9
 python Llontop_Atencio/condicionales_simples.py "andres" 2345.89 3465.9 1345.70
+
+
+python Llontop_Atencio/condicionales_simples.py "divino ninio" 59 56 87
+python Llontop_Atencio/condicionales_simples.py "misericordia" 85 67 78
+python Llontop_Atencio/condicionales_simples.py "sancarlos" 98 65 67

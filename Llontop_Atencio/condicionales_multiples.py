@@ -111,3 +111,27 @@ if(total >= 7000 and total <=7500 ):
 #si la suma total =>5000 y 6999 (usted no es empleado compulsivo)
 if ( total >= 5000 and total <=6999 ):)
     print(" usted no es un empleado compulsivo")
+
+
+#Ejercicio6
+#programa de exceso de alumnos
+import os
+#declaracion
+nombre_colegio,aula1,aula2,aula3="",0,0,0
+
+#Input via os
+nombre_colegio=os.sys.argv[1]
+aula1=int(os.sys.argv[2])
+aula1=int(os.sys.argv[3])
+aula1=int(os.sys.argv[4])
+
+#procesing
+total=int(round(aula1+aula2+aula3))
+#Condicion multiple
+#si la suma total => 250 y 300( no alcanzo vacante)
+if( total >= 250 and total <=300 ):
+    print("no alcanzo vacante")
+#si la suma total => 0 y 240(alcanzo vacante)
+if( total >= 0 and total <=240 ):
+    print("alcanzo vacante")
+
