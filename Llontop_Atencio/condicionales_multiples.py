@@ -122,8 +122,8 @@ nombre_colegio,aula1,aula2,aula3="",0,0,0
 #Input via os
 nombre_colegio=os.sys.argv[1]
 aula1=int(os.sys.argv[2])
-aula1=int(os.sys.argv[3])
-aula1=int(os.sys.argv[4])
+aula2=int(os.sys.argv[3])
+aula3=int(os.sys.argv[4])
 
 #procesing
 total=int(round(aula1+aula2+aula3))
@@ -135,3 +135,23 @@ if( total >= 250 and total <=300 ):
 if( total >= 0 and total <=240 ):
     print("alcanzo vacante")
 
+#Ejercicio7
+#programa consultora
+import os
+#declaracion de variables
+nombre_consultora,mes1,mes2,mes3,mes4="",0.0,0.0,0.0,0.0
+#Input via os
+nombre_consultora=os.sys.argv[1]
+mes1=float(os.sys.argv[2])
+mes2=float(os.sys.argv[3])
+mes3=float(os.sys.argv[4])
+
+#procesing
+total=float(round(mes1+mes2+mes3))
+#Condicion multiple
+#si la suma total =>1000 y 1500 (Felicidades ganaste un pavo!)
+if( total >= 1000 and total <= 1500 ):
+    print("Felicidades ganaste un pavo!")
+#si la suma total => 500 y 999
+if( total >= 500 and total <= 999 ):
+    print("Sigue intentando!")
