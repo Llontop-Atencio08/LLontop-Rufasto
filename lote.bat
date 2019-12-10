@@ -123,3 +123,7 @@ python Llontop_Atencio/condicionales_simples.py "victor" 456.70 256.87 795.44 67
 python Llontop_Atencio/condicionales_simples.py "jazmin" 12 15 20 17 11
 python Llontop_Atencio/condicionales_simples.py  "joel" 14 15 12 13 11
 python Llontop_Atencio/condicionales_simples.py  "jean" 14 16 18 14 13
+
+python Llontop_Atencio/condicionales_simples.py "melania" 5004.56 3989.7 46578.9 6548.40
+python Llontop_Atencio/condicionales_simples.py "peter" 8650.9 3469.50 6999.08
+python Llontop_Atencio/condicionales_simples.py "isabel" 8790.56 7567.89 5478.9

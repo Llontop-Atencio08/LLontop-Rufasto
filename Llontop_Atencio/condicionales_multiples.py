@@ -161,7 +161,7 @@ if( total >= 500 and total <= 999 ):
 #programa en venta de leche
 import os
 #declaracion de variables
-ganadero,semana1,semana2,semana3,semana4,total="",0.0,0.0,0.0,0.0
+ganadero,semana1,semana2,semana3,semana4,total="",0.0,0.0,0.0,0.0,0.0
 #Input via os
 ganadero=os.sys.argv[1]
 semana1=float(os.sys.argv[2])
@@ -202,3 +202,25 @@ if(promedio >= 20 and promedio <=15):
 if(promedio >=11 y and promedio <=14):
     print("Aprobaste!")
 
+
+#Ejercicio10
+#programa en venta de ropa
+import os
+#declaracion de variables
+vendedora,mes1,mes2,mes3,mes4,total="",0.0,0.0,0.0,0.0,0.0
+#Input via os
+vendedora=os.sys.argv[1]
+mes1=float(os.sys.argv[2])
+mes2=float(os.sys.argv[3])
+mes3=float(os.sys.argv[4])
+mes4=float(os.sys.argv[5])
+
+#procesing
+total=float(round(mes1+mes2+mes3+mes4))
+#Condicion multiple
+#si la suma total =>8000 y 10000 (Perfecto!)
+if(total >= 8000 and total <= 10000):
+    print("Perfecto!")
+#si la suma total => 5000 y 7999 (Oh vaya :( !)
+if (total >= 5000 and total <= 7999)
+    print("Oh vaya :(!")
